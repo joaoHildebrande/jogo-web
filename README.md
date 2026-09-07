@@ -20,8 +20,7 @@ fox-run-site/
 ├── jogo.html        → página que carrega o jogo (iframe) — TROCAR o src pelo link do seu jogo Low Code
 ├── style.css        → todo o visual do site
 ├── script.js        → menu hamburguer + validação do formulário de contato
-└── assets/
-    └── game-preview.png
+
 ```
 
 ## Onde cada critério da rubrica é atendido
@@ -47,12 +46,4 @@ fox-run-site/
 
 **Jogo (Low Code)**
 - `jogo.html` já está preparado com um `<iframe>` e um botão de acesso na home.
-- **Ação necessária:** publique o jogo feito na ferramenta Low Code (Construct, GDevelop, Scratch etc.) e troque
-  `src="about:blank"` pela URL real do jogo publicado, dentro de `jogo.html`.
 
-## Como publicar no GitHub Pages
-1. Crie um repositório novo no GitHub e envie todos os arquivos desta pasta para a raiz dele.
-2. Nas configurações do repositório, vá em **Settings → Pages**.
-3. Em "Branch", selecione `main` (ou `master`) e a pasta `/root`, depois salve.
-4. Aguarde alguns minutos — o GitHub vai gerar um link do tipo `https://seu-usuario.github.io/nome-do-repo/`.
-5. Teste o link em um celular também, pra conferir a responsividade.
