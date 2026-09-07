@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogar Fox Run</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="/iconraposa.jpg">
+
+  <style>
+    .game-page {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+      text-align: center;
+    }
+
+    .game-embed {
+      background: #1b1929;
+      border: 3px solid var(--brick-line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin: 2rem 0;
+    }
+
+    .game-embed iframe {
+      width: 100%;
+      height: 480px;
+      border: 0;
+      display: block;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--cream-dim);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .back-link:hover {
+      color: var(--cream);
+    }
+
+    .setup-note {
+      text-align: left;
+      background: var(--bg-panel);
+      border-left: 4px solid var(--apple);
+      padding: 1rem 1.25rem;
+      font-size: 0.85rem;
+      color: var(--cream-dim);
+      margin-top: 2rem;
+    }
+
+    .setup-note code {
+      color: var(--fox);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html#inicio" class="logo">
+        <span class="logo-pixel"></span>
+        Fox Run
+      </a>
+    </div>
+  </header>
+
+  <main class="game-page">
+    <p class="eyebrow">bom jogo!</p>
+    <h1>Colete maçãs e fuja do esqueleto</h1>
+    <p>Use as setas do teclado para se mover. Boa sorte, raposa.</p>
+
+    <div class="game-embed">
+      <iframe src="jogofox/index.html" title="Jogo Fox Run" loading="lazy" allowfullscreen>
+      </iframe>
+    </div>
+
+    <a href="index.html#inicio" class="back-link">← Voltar para a página inicial</a>
+  </main>
+
+  <footer class="site-footer">
+    <p>Fox Run · projeto acadêmico de desenvolvimento web · feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+</body>
+
+</html>
